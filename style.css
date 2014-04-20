@@ -1,0 +1,83 @@
+/* General Demo Style */
+
+.container > header nav {
+    width: 100%;
+    background: #47a3da;
+    float: left;
+}
+.container > header nav ul{
+    padding: 0;
+
+    margin: 0;
+}
+.container > header nav ul li{
+    list-style: none;
+
+}
+.container > header nav a {
+    float: left;
+    width: auto;
+    height: 3.5em;
+    color: #FFFFFF;
+    padding: 1em 3.9em;
+}
+.container > header nav a:hover {
+    background: #47A3B3;
+}
+section{
+    width: 60%;
+    
+    float: left;
+    margin-left: 10%;
+}
+article{
+    width: 48%;
+    
+    float: left;
+    height: 170px;
+    margin-right: 2%;
+    background: ghostwhite;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-left: 3px solid #47a3da;
+}
+article h1{
+    margin: 0;
+    
+    font-size: 2em;
+}
+article p{
+    
+}
+aside{
+    width: 20%;
+    
+    float: right;
+    background: red;
+    height: 500px;
+    margin-right: 10%;
+}
+footer{
+    width: 100%;
+
+    display: inline-block;
+    color: #FFF;
+    background: #47a3da;
+}
+address{
+    width: 80%;
+    
+    margin: 0 auto;
+    padding: 0;
+    height: 40px;
+}
+address ul{
+    padding: 0;
+}
+address ul li{
+    list-style: none;
+    float: left;
+}
+address ul li:last-child{
+    float: right;
+}
